@@ -1,6 +1,3 @@
-#To demonstrate the concept of OOP in python
-#class vehicle sub class car,cycle 
-
 class Vehicle:
     def move(self):
         print("Vehicle Moving")
@@ -16,4 +13,5 @@ class Cycle(Vehicle):
 vehicle=[Vehicle(),Car(),Cycle()]
 
 for v in vehicle:
+
     v.move()
